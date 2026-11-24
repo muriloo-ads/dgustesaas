@@ -1,16 +1,27 @@
-# React + Vite
+# 🍔 Dguste · cardápio digital com pedido online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cardápio digital para hamburgueria: o cliente monta o pedido no celular e o dono controla tudo por um painel administrativo. **Projeto de demonstração.**
 
-Currently, two official plugins are available:
+## O que tem
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Cardápio por categoria**, com fotos, descrição e preço de cada lanche
+- **Carrinho** com quantidades e total; o pedido vai pronto para o **WhatsApp** da lanchonete
+- **Painel administrativo** com login: cadastrar e remover produtos, enviar as fotos dos lanches, acompanhar o status dos pedidos e criar cupons de desconto
+- **Dados em tempo real** no Firebase: o que o dono muda no painel aparece na hora no cardápio
+- Layout pensado primeiro para o **celular**, onde o cliente faz o pedido
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React 19 · Vite · React Router · Firebase (Realtime Database, Storage e Authentication) · Lucide Icons
 
-## Expanding the ESLint configuration
+## Rodar no computador
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Quer um cardápio assim para o seu negócio?
+
+Faço cardápios digitais, sites e campanhas de tráfego pago para restaurantes e lanchonetes.
+Fale comigo no Instagram: [@muriloo.ads](https://instagram.com/muriloo.ads)
